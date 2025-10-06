@@ -1,0 +1,68 @@
+---
+title: "OMR Grader"
+collection: projects
+permalink: /projects/omr_grader/
+image: "../images/omr2.png"
+---
+
+<section>
+  <div
+    style="
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      margin: 12px 0 24px;
+    "
+  >
+    <!-- Replace src with your actual image paths, e.g., /images/omr_input.png -->
+    <img
+      src="../images/omr1.png"
+      alt="Before Grading"
+      style="max-width: 100%; height: auto; width: 480px"
+    />
+    <img
+      src="../images/omr2.png"
+      alt="After Grading"
+      style="max-width: 100%; height: auto; width: 480px"
+    />
+  </div>
+
+  <h3><strong>OMR Sheet Grading System</strong></h3>
+
+  <p><strong>Summary:</strong></p>
+  <p>
+    Developed a fully automated Optical Mark Recognition (OMR) grading system
+    using
+    <strong>OpenCV</strong> and <strong>NumPy</strong> to detect and score
+    answer sheets from scanned images. The program applies advanced image
+    preprocessing, perspective correction, and contour detection to accurately
+    identify answer bubbles. It distinguishes filled vs. unfilled responses
+    using pixel intensity thresholds and compares detected answers against a
+    predefined answer key to compute scores automatically.
+  </p>
+
+  <p><strong>Key Features:</strong></p>
+  <ul>
+    <li>
+      Implemented <strong>contour sorting and shape analysis</strong> to locate
+      and label circular answer bubbles.
+    </li>
+    <li>
+      Performed <strong>perspective transformation</strong> for alignment
+      correction of scanned sheets.
+    </li>
+    <li>
+      Applied <strong>morphological operations</strong> for noise removal and
+      hole filling.
+    </li>
+    <li>
+      Automatically graded 20-question multiple-choice sheets with
+      <strong>100% accuracy</strong> under varied lighting and skew conditions.
+    </li>
+    <li>
+      Visualized results by overlaying correct answers in green and incorrect
+      ones in red, along with the total percentage score.
+    </li>
+  </ul>
+</section>

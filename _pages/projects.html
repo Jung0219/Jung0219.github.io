@@ -1,0 +1,15 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+---
+
+{% comment %}List all items in the projects collection{% endcomment %} {% for
+item in site.projects %}
+<article class="archive-item">
+  <h2><a href="{{ item.url }}">{{ item.title | default: item.path }}</a></h2>
+  {% if item.excerpt %}
+  <div class="archive-excerpt">{{ item.excerpt }}</div>
+  {% endif %}
+</article>
+{% endfor %}
