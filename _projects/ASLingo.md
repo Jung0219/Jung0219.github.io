@@ -2,7 +2,9 @@
 title: "ASLingo"
 collection: projects
 permalink: /projects/aslingo/
-image: "../images/hand.png"
+image: "../images/ASLingo/hand.png"
+excerpt: "Interactive ASL learning app with real-time sign recognition using ResNet18 trained on 90,000+ labeled images."
+layout: single
 ---
 
 <section class="project-item">
@@ -10,19 +12,19 @@ image: "../images/hand.png"
 
   <div class="img-with-caption" style="text-align: center; margin: 20px 0">
     <img
-      src="/images/ASLingo_demo.gif"
+      src="/images/ASLingo/ASLingo_demo.gif"
       alt="ASLingo demo animation"
       style="width: 640px; border-radius: 12px; max-width: 100%"
     />
     <p class="caption" style="font-style: italic; font-size: 0.9em">
-      Demonstration of ASLingo in action — real-time sign recognition feedback.
+      Demonstration of ASLingo in action - real-time sign recognition feedback.
     </p>
   </div>
 
   <ul class="project-features">
     <li>
       Designed an interactive American Sign Language (ASL) learning application
-      inspired by Duolingo’s game-based format.
+      inspired by Duolingo's game-based format.
     </li>
     <li>
       Trained a <strong>ResNet18</strong> model on
@@ -50,7 +52,7 @@ image: "../images/hand.png"
 
   <div class="img-with-caption" style="text-align: center; margin: 20px 0">
     <img
-      src="/images/ASLingo_diagram.png"
+      src="/images/ASLingo/ASLingo_diagram.png"
       alt="ASLingo System Architecture Diagram"
       style="width: 100%; max-width: 800px; border-radius: 12px"
     />

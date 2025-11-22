@@ -2,7 +2,9 @@
 title: "OMR Grader"
 collection: projects
 permalink: /projects/omr_grader/
-image: "../images/omr2.png"
+image: "../images/OMR_Grader/omr2.png"
+excerpt: "Automated optical mark recognition grading system using OpenCV for answer sheet detection and scoring with 100% accuracy."
+layout: single
 ---
 
 <section>
@@ -15,14 +17,13 @@ image: "../images/omr2.png"
       margin: 12px 0 24px;
     "
   >
-    <!-- Replace src with your actual image paths, e.g., /images/omr_input.png -->
     <img
-      src="../images/omr1.png"
+      src="../images/OMR_Grader/omr1.png"
       alt="Before Grading"
       style="max-width: 100%; height: auto; width: 480px"
     />
     <img
-      src="../images/omr2.png"
+      src="../images/OMR_Grader/omr2.png"
       alt="After Grading"
       style="max-width: 100%; height: auto; width: 480px"
     />
@@ -33,8 +34,7 @@ image: "../images/omr2.png"
   <p><strong>Summary:</strong></p>
   <p>
     Developed a fully automated Optical Mark Recognition (OMR) grading system
-    using
-    <strong>OpenCV</strong> and <strong>NumPy</strong> to detect and score
+    using <strong>OpenCV</strong> and <strong>NumPy</strong> to detect and score
     answer sheets from scanned images. The program applies advanced image
     preprocessing, perspective correction, and contour detection to accurately
     identify answer bubbles. It distinguishes filled vs. unfilled responses
