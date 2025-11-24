@@ -5,15 +5,16 @@ permalink: /projects/wildfire-detection/
 image: "../images/Wildfire_Detection/detection11.png"
 excerpt: "Multi-resolution, two-stage detection pipeline that boosts recall for small wildfire smoke and fire signals while filtering false positives."
 layout: single
+date: 2025-01-01
 ---
 
 ## Research Project
 **June, 2025 – Present — HPC Lab, Saint Louis University**  
 Advisor: *Tae-Hyuk Ahn, Ph.D.*
 
-<div style="display: flex; gap: 16px; flex-wrap: wrap; align-items: flex-start; margin: 12px 0 24px;">
-  <img src="../images/Wildfire_Detection/detection11.png" alt="Detection example 1" style="max-width: 100%; height: auto; width: 480px" />
-  <img src="../images/Wildfire_Detection/detection2.png" alt="Detection example 2" style="max-width: 100%; height: auto; width: 480px" />
+<div style="display: flex; gap: 16px; flex-wrap: nowrap; align-items: flex-start; margin: 12px 0 24px; justify-content: center;">
+  <img src="/images/Wildfire_Detection/detection11.png" alt="Detection example 1" style="max-width: 48%; height: auto;" />
+  <img src="/images/Wildfire_Detection/detection2.png" alt="Detection example 2" style="max-width: 48%; height: auto;" />
 </div>
 
 ### **Overview**
@@ -30,13 +31,13 @@ Advisor: *Tae-Hyuk Ahn, Ph.D.*
 - Overall Architecture
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="../images/Wildfire_Detection/diagram1.png" alt="Overall Architecture" style="max-width: 100%; border-radius: 12px;" />
+  <img src="/images/Wildfire_Detection/diagram1.png" alt="Overall Architecture" style="max-width: 100%; border-radius: 12px;" />
 </div>
 
 - Sky Detection Framework for Cropped Images
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="../images/Wildfire_Detection/diagram2.png" alt="Sky Detection Framework" style="max-width: 100%; border-radius: 12px;" />
+  <img src="/images/Wildfire_Detection/diagram2.png" alt="Sky Detection Framework" style="max-width: 100%; border-radius: 12px;" />
 </div>
 
 ### Skills Gained

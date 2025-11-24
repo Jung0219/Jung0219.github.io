@@ -24,7 +24,7 @@ repository: "Jung0219/Jung0219.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar: "profile.png"
+  avatar: "selfie.jpeg"
   name: "Gihwan (Finn) Jung"
   pronouns: # example: "she/her"
   bio: "CS @ Saint Louis University"

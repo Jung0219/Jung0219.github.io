@@ -5,14 +5,15 @@ permalink: /projects/seven-segment-reader/
 image: "../images/Seven_Segment_Reader/before.png"
 excerpt: "Computer vision system to detect and recognize digits from seven-segment displays using OpenCV and Python."
 layout: single
+date: 2024-10-01
 ---
 
 ## Personal Project
 **September, 2023 ~ October, 2023**
 
-<div style="display: flex; gap: 16px; flex-wrap: wrap; align-items: flex-start; margin: 12px 0 24px;">
-  <img src="../images/Seven_Segment_Reader/before.png" alt="Before processing" style="max-width: 100%; height: auto; width: 480px" />
-  <img src="../images/Seven_Segment_Reader/after.png" alt="After processing" style="max-width: 100%; height: auto; width: 480px" />
+<div style="display: flex; gap: 16px; flex-wrap: nowrap; align-items: flex-start; margin: 12px 0 24px; justify-content: center;">
+  <img src="/images/Seven_Segment_Reader/before.png" alt="Before processing" style="max-width: 48%; height: auto;" />
+  <img src="/images/Seven_Segment_Reader/after.png" alt="After processing" style="max-width: 48%; height: auto;" />
 </div>
 
 ### Overview
@@ -28,7 +29,7 @@ layout: single
 ### Project Diagram
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="../images/Seven_Segment_Reader/diagram.png" alt="Seven Segment Reader System Diagram" style="max-width: 100%; border-radius: 12px;" />
+  <img src="/images/Seven_Segment_Reader/diagram.png" alt="Seven Segment Reader System Diagram" style="max-width: 100%; border-radius: 12px;" />
   <p style="font-style: italic; font-size: 0.9em;">Binary Thresholding and Processing Pipeline</p>
 </div>
 

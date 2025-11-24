@@ -5,6 +5,7 @@ permalink: /projects/omr_grader/
 image: "../images/OMR_Grader/omr2.png"
 excerpt: "Automated optical mark recognition grading system using OpenCV for answer sheet detection and scoring with 100% accuracy."
 layout: single
+date: 2024-09-01
 ---
 
 <section>
@@ -12,20 +13,21 @@ layout: single
     style="
       display: flex;
       gap: 16px;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       align-items: flex-start;
       margin: 12px 0 24px;
+      justify-content: center;
     "
   >
     <img
-      src="../images/OMR_Grader/omr1.png"
+      src="/images/OMR_Grader/omr1.png"
       alt="Before Grading"
-      style="max-width: 100%; height: auto; width: 480px"
+      style="max-width: 48%; height: auto;"
     />
     <img
-      src="../images/OMR_Grader/omr2.png"
+      src="/images/OMR_Grader/omr2.png"
       alt="After Grading"
-      style="max-width: 100%; height: auto; width: 480px"
+      style="max-width: 48%; height: auto;"
     />
   </div>
 

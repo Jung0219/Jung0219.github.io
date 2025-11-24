@@ -5,6 +5,7 @@ permalink: /projects/aslingo/
 image: "../images/ASLingo/hand.png"
 excerpt: "Interactive ASL learning app with real-time sign recognition using ResNet18 trained on 90,000+ labeled images."
 layout: single
+date: 2024-12-01
 ---
 
 <section class="project-item">
