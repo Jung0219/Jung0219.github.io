@@ -78,7 +78,7 @@ permalink: /projects/
 </style>
 
 <div class="projects-grid">
-{% for item in site.projects %}
+{%- for item in site.projects reversed -%}
   <article class="project-card">
     <div class="project-card-image">
       {% if item.image %}
@@ -96,5 +96,5 @@ permalink: /projects/
       {% endif %}
     </div>
   </article>
-{% endfor %}
+{%- endfor -%}
 </div>
