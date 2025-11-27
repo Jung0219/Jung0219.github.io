@@ -3,13 +3,13 @@ title: "Bioinformatic approaches to blood and tissue microbiome analyses: challe
 collection: publications
 category: manuscripts
 permalink: https://academic.oup.com/bib/article/26/2/bbaf176/8118856
-excerpt: "This paper is about the number 1. The number 2 is left for future work."
+excerpt: "Built a Linux-based benchmarking pipeline to evaluate multiple blood microbiome analysis tools."
 date: 2025-04-24
-venue: "Journal 1"
-slidesurl: \
-paperurl: \
-bibtexurl: \
-citation: \
+venue: "Briefings in Bioinformatics"
+slidesurl: 
+paperurl: 
+bibtexurl: 
+citation:
 ---
 
 Built a Linux-based benchmarking pipeline to evaluate multiple blood microbiome analysis tools; co-authored the resulting paper as 3rd author.
